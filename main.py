@@ -33,5 +33,5 @@ while True:
     programa_python()
     repetir = input("\nDeseja reiniciar o programa? (s/n): ").lower()
     if repetir != 's':
-        print("Até à próxima! :)")
+        print(f"Até à próxima, {nome}! Continua firme nos estudos de Python! 🚀")
         break
