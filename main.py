@@ -27,3 +27,11 @@ def programa_python():
     interesse: str = input("O que mais te interessa em aprender com Python? ")
     print(f"Interessante, {nome}! Aprender mais sobre '{interesse}' é uma excelente ideia. Boa sorte nos estudos!")
     print("=" * 40)
+    
+    # Loop para repetir o programa se o utilizador quiser
+while True:
+    programa_python()
+    repetir = input("\nDeseja reiniciar o programa? (s/n): ").lower()
+    if repetir != 's':
+        print("Até à próxima! :)")
+        break
