@@ -21,3 +21,6 @@ else:
     
     # Pergunta sobre o interesse na programação
 interesse: str = input("O que mais te interessa em aprender com Python? ")
+
+# Resposta final personalizada
+print(f"Interessante, {nome}! Aprender mais sobre '{interesse}' é uma excelente ideia. Boa sorte nos estudos!")
