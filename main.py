@@ -18,3 +18,6 @@ elif 19 <= idade <= 40:
     print("Muito bem! Python é excelente para qualquer área profissional.")
 else:
     print("Nunca é tarde para aprender algo novo, parabéns!")
+    
+    # Pergunta sobre o interesse na programação
+interesse: str = input("O que mais te interessa em aprender com Python? ")
